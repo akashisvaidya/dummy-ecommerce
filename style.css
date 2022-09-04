@@ -9,6 +9,7 @@
     .wrapper { 
         display: grid;
         /* gap: 1rem; */
+        grid-template-columns: repeat(3, 1fr);
         grid-template-areas: 
         "header header header"
         "h1 h1 h1"
@@ -99,6 +100,7 @@
 .wrapper { 
         display: grid;
         /* gap: 1rem; */
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
         "header header"
         "h1 h1"
@@ -117,7 +119,7 @@
 
     @media (max-width: 550px){
 .wrapper{
-
+grid-template-columns: 1fr;
     grid-template-areas: 
     "header"
     "h1"
